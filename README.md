@@ -1,2 +1,2 @@
 # github-trello-card-events
-Update cards in Trello based on GitHub events.
+Update cards in trello based on GitHub events.
