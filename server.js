@@ -22,7 +22,6 @@ var server = app.listen(process.env.PORT, function () {
 });
 
 app.post('/', function (req, res) {
-  //console.log(req.body);
   res.send({status: 'Received'});
 
   var pullRequestTitle = req.body.pull_request.title;
