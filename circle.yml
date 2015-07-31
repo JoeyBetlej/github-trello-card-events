@@ -8,3 +8,4 @@ deployment:
     commands:
       - git remote add dokku dokku@dokku.mpirikreview.com:github-trello-card-events
       - git push -f dokku master:master
+
