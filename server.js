@@ -42,7 +42,7 @@ app.post('/', function (req, res) {
       branch = branch.trim();
 
       // If there are any whitespaces in between words, replace the whitespaces in between the words
-      // with a hyphen. Ex: 'this   is a     branch 50' will be 'this-is-a-branch-50'
+      // with a hyphen. Ex: 'this   is a    branch 50' will be 'this-is-a-branch-50'
       if (branch.indexOf(' ') >= 0) {
         branch = branch.replace(/\s+/g, '-');
       }
