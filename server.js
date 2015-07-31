@@ -1,11 +1,9 @@
 var app = require('express')();
 var bodyParser = require('body-parser');
 var Trello = require('node-trello');
-
 var devKey = process.env.DEV_KEY;
 var appToken = process.env.APP_TOKEN;
 var trello = new Trello(devKey, appToken);
-
 var list = process.env.DESTINATION_LIST;
 var branch;
 var board;
