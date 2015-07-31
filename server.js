@@ -118,8 +118,8 @@ function putCardInList(cardID, listID) {
 }
 
 /**
- * Upon certain pull request actions, this will move the card in the request into a
- * specified list
+ * Upon certain pull request actions, this will move the card in the request into the
+ * list specified by the environment variable DESTINATION_LIST
  *
  */
 function moveCard() {
